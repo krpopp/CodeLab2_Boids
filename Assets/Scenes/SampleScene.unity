@@ -239,11 +239,11 @@ MonoBehaviour:
   boidprefab: {fileID: 3349408841012751168, guid: 24badb0551d1641eb8db56e37d9f08da, type: 3}
   boidlist: []
   numOfBoids: 20
-  weight_alignment: 0
-  weight_cohesion: 0
-  weight_separation: 0
-  weight_targetseek: 0
   boidSeparationDistance: 1
+  weightAlignment: 0.01
+  weightCohseion: 0.02
+  weightSeperation: 0.04
+  weightTarget: 0.05
 --- !u!4 &1287073256
 Transform:
   m_ObjectHideFlags: 0

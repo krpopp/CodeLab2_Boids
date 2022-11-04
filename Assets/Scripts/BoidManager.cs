@@ -11,6 +11,11 @@ public class BoidManager : MonoBehaviour
 
 	public float boidSeparationDistance = 1f;
 
+	[Range(0, 2f)] public float weightAlignment;
+	[Range(0, 2f)] public float weightCohseion;
+	[Range(0, 2f)] public float weightSeperation;
+	[Range(0, 2f)] public float weightTarget;
+
     // Start is called before the first frame update
     void Start()
     {
